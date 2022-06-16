@@ -1,0 +1,86 @@
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd" xmlns:cenc="urn:mpeg:cenc:2013" profiles="urn:mpeg:dash:profile:isoff-on-demand:2011" minBufferTime="PT2S" type="static" mediaPresentationDuration="PT97.44000244140625S">
+  <Period id="0">
+    <AdaptationSet id="0" contentType="audio" subsegmentAlignment="true">
+      <Representation id="1" bandwidth="3484" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <BaseURL>/video/upload/br_300k,c_limit,h_135,vc_vp9,w_240/v1556015006/kv6fhu3vkrwx4lzfqmyi.webmda</BaseURL>
+        <SegmentBase indexRange="760-1379" timescale="48000">
+          <Initialization range="0-759" />
+        </SegmentBase>
+      </Representation>
+      <Representation id="2" bandwidth="3484" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <BaseURL>/video/upload/br_500k,c_limit,h_180,vc_vp9,w_320/v1556015006/kv6fhu3vkrwx4lzfqmyi.webmda</BaseURL>
+        <SegmentBase indexRange="760-1379" timescale="48000">
+          <Initialization range="0-759" />
+        </SegmentBase>
+      </Representation>
+      <Representation id="3" bandwidth="3484" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <BaseURL>/video/upload/br_800k,c_limit,h_270,vc_vp9,w_480/v1556015006/kv6fhu3vkrwx4lzfqmyi.webmda</BaseURL>
+        <SegmentBase indexRange="760-1379" timescale="48000">
+          <Initialization range="0-759" />
+        </SegmentBase>
+      </Representation>
+      <Representation id="4" bandwidth="3484" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <BaseURL>/video/upload/br_2m,c_limit,h_360,vc_vp9,w_640/v1556015006/kv6fhu3vkrwx4lzfqmyi.webmda</BaseURL>
+        <SegmentBase indexRange="760-1379" timescale="48000">
+          <Initialization range="0-759" />
+        </SegmentBase>
+      </Representation>
+      <Representation id="5" bandwidth="3484" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <BaseURL>/video/upload/br_3500k,c_limit,h_540,vc_vp9,w_960/v1556015006/kv6fhu3vkrwx4lzfqmyi.webmda</BaseURL>
+        <SegmentBase indexRange="760-1379" timescale="48000">
+          <Initialization range="0-759" />
+        </SegmentBase>
+      </Representation>
+      <Representation id="6" bandwidth="3484" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <BaseURL>/video/upload/br_5500k,c_limit,h_720,vc_vp9,w_1280/v1556015006/kv6fhu3vkrwx4lzfqmyi.webmda</BaseURL>
+        <SegmentBase indexRange="760-1379" timescale="48000">
+          <Initialization range="0-759" />
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="1" contentType="video" width="240" height="134" frameRate="1000000/40000" subsegmentAlignment="true" par="34:19">
+      <Representation id="7" bandwidth="83378" codecs="vp9" mimeType="video/webm" sar="1:1">
+        <BaseURL>/video/upload/br_300k,c_limit,h_135,vc_vp9,w_240/v1556015006/kv6fhu3vkrwx4lzfqmyi.webmdv</BaseURL>
+        <SegmentBase indexRange="303-1099" timescale="1000000">
+          <Initialization range="0-302" />
+        </SegmentBase>
+      </Representation>
+      <Representation id="8" bandwidth="123207" codecs="vp9" mimeType="video/webm" sar="1:1">
+        <BaseURL>/video/upload/br_500k,c_limit,h_180,vc_vp9,w_320/v1556015006/kv6fhu3vkrwx4lzfqmyi.webmdv</BaseURL>
+        <SegmentBase indexRange="305-1103" timescale="1000000">
+          <Initialization range="0-304" />
+        </SegmentBase>
+      </Representation>
+      <Representation id="9" bandwidth="212146" codecs="vp9" mimeType="video/webm" sar="1:1">
+        <BaseURL>/video/upload/br_800k,c_limit,h_270,vc_vp9,w_480/v1556015006/kv6fhu3vkrwx4lzfqmyi.webmdv</BaseURL>
+        <SegmentBase indexRange="307-1107" timescale="1000000">
+          <Initialization range="0-306" />
+        </SegmentBase>
+      </Representation>
+      <Representation id="10" bandwidth="333061" codecs="vp9" mimeType="video/webm" sar="1:1">
+        <BaseURL>/video/upload/br_2m,c_limit,h_360,vc_vp9,w_640/v1556015006/kv6fhu3vkrwx4lzfqmyi.webmdv</BaseURL>
+        <SegmentBase indexRange="307-1109" timescale="1000000">
+          <Initialization range="0-306" />
+        </SegmentBase>
+      </Representation>
+      <Representation id="11" bandwidth="569052" codecs="vp9" mimeType="video/webm" sar="1:1">
+        <BaseURL>/video/upload/br_3500k,c_limit,h_540,vc_vp9,w_960/v1556015006/kv6fhu3vkrwx4lzfqmyi.webmdv</BaseURL>
+        <SegmentBase indexRange="307-1109" timescale="1000000">
+          <Initialization range="0-306" />
+        </SegmentBase>
+      </Representation>
+      <Representation id="12" bandwidth="825173" codecs="vp9" mimeType="video/webm" sar="1:1">
+        <BaseURL>/video/upload/br_5500k,c_limit,h_720,vc_vp9,w_1280/v1556015006/kv6fhu3vkrwx4lzfqmyi.webmdv</BaseURL>
+        <SegmentBase indexRange="307-1109" timescale="1000000">
+          <Initialization range="0-306" />
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
