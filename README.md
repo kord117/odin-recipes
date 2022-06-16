@@ -1,1 +1,1 @@
-first website, using just HTML5. linking people so some tasty recipes. 
+first website, using just HTML5. linking people to some tasty recipes. 
